@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+/* common css end */
+
+nav {
+    height: 80px;
+    background-color: #425D7B;
+    line-height: 80px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.main a {
+    color: #fff !important;
+    font-weight: 400;
+}
+
+table a {
+    color: red;
+}
+
+table .first_icon {
+    color: orange;
+}
+
+table a:hover {
+    color: gold;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 700;
+}
